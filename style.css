@@ -33,6 +33,7 @@ img {
     font-size: 1em;
     font-weight: 500;
     padding-left: 30px;
+    text-decoration: none;
 }
 
 .navigation a:hover{
