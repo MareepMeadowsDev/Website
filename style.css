@@ -162,8 +162,7 @@ section {
 }
 
 .staff-card {
-    background-color: #fff;
-    border: 1px solid #fff;
+    background-color: #61f1a2;
     min-height: 14em;
     width: 23em;
     overflow: hidden;
