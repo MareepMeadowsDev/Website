@@ -10,6 +10,7 @@
 
 
 header {
+    background-color: #5CDB95;
     width: 100%;
     position: fixed;
     z-index: 999;
@@ -23,7 +24,7 @@ header {
 
 img {
     border-radius: 100%;
-    width: 90px;
+    width: 70px;
 }
 
 
@@ -49,7 +50,7 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(Images/background.png) no-repeat;
+    background-color: #5CDB95;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -128,7 +129,9 @@ section {
     margin: 15px;
     transition: 0.7s ease;
 }
-
+.card discord-tos {
+    text-decoration: none;
+}
 .card:hover {
     transform: scale(1.1);
 }
@@ -162,7 +165,6 @@ section {
 }
 
 .staff-card {
-    background-color: #61f1a2;
     min-height: 14em;
     width: 23em;
     overflow: hidden;
