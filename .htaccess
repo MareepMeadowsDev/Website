@@ -1,0 +1,8 @@
+RewriteEngine on
+
+
+RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
+RewriteRule ^ /%1 [NC,L,R]
+
+RewriteCond %{bugreport}.html -f
+RewriteRule ^ %{https://mareepsmeadow.com/bugreport}.html [NC,L]
