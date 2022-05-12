@@ -6,3 +6,6 @@ RewriteRule ^ /%1 [NC,L,R]
 
 RewriteCond %{bugreport}.html -f
 RewriteRule ^ %{https://mareepsmeadow.com/bugreport}.html [NC,L]
+
+RewriteCond %{modapps}.html -f
+RewriteRule ^ %{https://mareepsmeadow.com/modapps}.html [NC,L]
