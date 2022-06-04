@@ -215,6 +215,17 @@ section {
 }
 
 
+.footer{
+    padding-bottom: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    background: url(Images/background.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 
 @media (max-width:1023px){
     header{
