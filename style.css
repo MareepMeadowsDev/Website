@@ -214,6 +214,9 @@ section {
     color: gray;
 }
 
+.leaderboards {
+        text-align: center;
+}
 
 .footer{
     padding-bottom: 20px;
