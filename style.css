@@ -218,6 +218,14 @@ section {
         text-align: center;
 }
 
+.donators{
+    background: url(Images/background.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
 .footer{
     padding-bottom: 20px;
     font-weight: 600;
