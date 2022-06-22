@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
 *{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
@@ -50,39 +51,39 @@ section {
     display: flex;
     align-items: center;
     background: url(Images/background.png) no-repeat;
-    background: url(Images/hazel-background.png) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-@@ -60,12 +24,13 @@ section {
+}
+
+.main h2 {
     color: #fff;
     font-size: 1.4em;
     font-weight: 400;
-    margin-left: 450px;
 }
 
 .main h2 span {
     display: inline-block;
     margin-top: 10px;
     color: rgb(34, 142, 214);
-    color: #E5371F;
     font-size: 3em;
     font-weight: 600;
 }
-@@ -77,218 +42,32 @@ section {
+
+.main h3 {
+    color: #fff;
+    font-size: 0.9em;
+    font-weight: 500;
     letter-spacing: 1px;
     margin-top: 10px;
     margin-bottom: 30px;
-    margin-left: 720px;
 }
 
 .main-btn {
     color: black;
-    background-color: rgb(171, 179, 175);
-    background-color: white;
+    background-color: pink;
     text-decoration: none;
     font-size: 1.1em;
-    font-weight: 600;
     font-weight: 500;
     display: inline-block;
     padding: 0.9375em 2em;
@@ -90,12 +91,12 @@ section {
     border-radius: 15px;
     margin-bottom: 40px;
     transition: 0.3s ease;
-    margin-left: 760px;
 }
 
 .main-btn:hover {
     background-color: pink;
     transform: scale(1.1);
+    font-weight: 600;
 }
 
 .title {
@@ -105,6 +106,12 @@ section {
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom: 30px;
+}
+
+.desc {
+    display: flex;
+    justify-content: center;
+    color: gray;
 }
 
 .content {
@@ -123,9 +130,7 @@ section {
     margin: 15px;
     transition: 0.7s ease;
 }
-.card discord-tos {
-    text-decoration: none;
-}
+
 .card:hover {
     transform: scale(1.1);
 }
@@ -167,6 +172,7 @@ section {
     transition: 0.7s ease;
     outline: none;
     background-color: #c6e4ca;
+    scrollbar-width: auto;
 }
 
 .staff-card:hover {
@@ -214,6 +220,7 @@ section {
     color: gray;
 }
 
+
 .leaderboards {
         text-align: center;
 }
@@ -236,6 +243,8 @@ section {
     background-position: center;
     background-attachment: fixed;
 }
+
+
 
 
 @media (max-width:1023px){
@@ -289,6 +298,6 @@ section {
 @media (max-width:300px){
     body{
         font-size: 10px;
-
+     
     }
 }
