@@ -276,6 +276,9 @@ section {
         flex-direction: column;
         align-items: center;
     }
+     .staff-image img{
+     margin-left: 97px;   
+    }
 
 }
 
